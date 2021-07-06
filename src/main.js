@@ -25,4 +25,6 @@ const movie = (movies) => {
 }
 movie(ghibliMovies);
 
-
+document.getElementById("alf").addEventListener("click", function() {
+	console.log("teste")
+  });
