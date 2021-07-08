@@ -1,30 +1,39 @@
 import './data.js';
-// import data from './data/lol/lol.js';
-//import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+//import { alphabetic } from './data.js';
 
 import data from './data/ghibli/ghibli.js';
 const ghibliMovies = data.films;
 
-//console.log(example, data);
+function print(ghibliMovies) {
+	let card = "";
 
-//DOM
-const card = document.getElementById("cards");
-const movie = (movies) => {
-	movies.forEach(ghibliMovie => {
-		card.innerHTML += `
-		<h2>${ghibliMovie.title}</h2>
-		<img src=${ghibliMovie.poster}>
-		<h4>Description: ${ghibliMovie.description}</h4>
-		<h4>Director: ${ghibliMovie.director}</h4>
-		<h4>Producer: ${ghibliMovie.producer}</h4>
-		<h4>Release Date: ${ghibliMovie.release_date}</h4>
-		<h4>Score: ${ghibliMovie.rt_score}</h4>
+	for (let property of ghibliMovies) {
+		card += `
+		<div class="card flexBox">
+		<h3>${property.title}</h3>
+		<img class="imgCard" src=${property.poster}><br>
+		<h4>Director: ${property.director}</h4>
+		<h4>Producer: ${property.producer}</h4>
+		<h4>Release Date: ${property.release_date}</h4>
+		<h4>Score: ${property.rt_score}</h4>
+		</div>
+		
 		`
-	})
+	}
+	document.getElementById("movies").innerHTML = card;
 }
-movie(ghibliMovies);
+
+print(ghibliMovies);
+
+/*
+let test = ghibliMovies.sort(function alphabetic(a, b) {
+	return a.title < b.title ? -1 : a.title > b.title ? 1 : 0;
+});
 
 document.getElementById("alf").addEventListener("click", function () {
-	console.log("teste")
-});
+	console.log(test)
+});*/
+
+
+
+
