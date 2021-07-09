@@ -23,6 +23,10 @@ export function arrayToObject(array){
     return result;
 }*/
 
+/*
+export function alphabetic(a, b) {
+    return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
+}*/
 
 
 
