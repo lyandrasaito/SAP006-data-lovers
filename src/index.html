@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ghibli Wiki</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./img/totoro.png" />
 </head>
 
 <body>
@@ -18,31 +19,35 @@
     <nav class="flexBox">
 
       <form>
-        <select name="order">
-          <option value="">Order by:</option>
-          <option value="">Release</option>
-          <option value="">Popularity</option>
-          <option value="">A-Z</option>
+        <select name="order" id="order">
+          <option class= "option" value="" selected disabled>Order by:</option>
+          <option class= "option" value="A-Z">A-Z</option>
+          <option class= "option" value="Z-A">A-Z</option>
+          <option class= "option" value="older">Release - Older to Newer</option>
+          <option class= "option" value="newer">Release - Newer to Older</option>
+          <option class= "option" value="low">Rating - Low to High</option>
+          <option class= "option" value="high">Rating - High to Low</option>
+
         </select>
 
 
         <select name="filter">
-          <option value="" class="option">Filter by Director:</option>
-          <option value="">Hayao Miyazaki</option>
-          <option value="">Isao Takahatac</option>
-          <option value="">Yoshifumi Kondō</option>
-          <option value="">Hiroyuki Morita</option>
-          <option value="">Gorō Miyazaki</option>
-          <option value="">Hiromasa Yonebayashi</option>
+          <option class= "option" value="" selected disabled>Filter by Director:</option>
+          <option class= "option" value="">Hayao Miyazaki</option>
+          <option class= "option" value="">Isao Takahatac</option>
+          <option class= "option" value="">Yoshifumi Kondō</option>
+          <option class= "option" value="">Hiroyuki Morita</option>
+          <option class= "option" value="">Gorō Miyazaki</option>
+         <!-- <option class= "option" value="">Hiromasa Yonebayashi</option>-->
         </select>
 
         <select name="filter2">
-          <option value="">Filter by Producer:</option>
-          <option value="">Hayao Miyazaki</option>Yoshiaki Nishimura
-          <option value="">Isao Takahatac</option>
-          <option value="">Toru Hara</option>
-          <option value="">Toshio Suzuki</option>
-          <option value="">Yoshiaki Nishimura</option>
+          <option class= "option" value="" selected disabled>Filter by Producer:</option>
+          <option class= "option" value="">Hayao Miyazaki</option>Yoshiaki Nishimura
+          <option class= "option" value="">Isao Takahatac</option>
+          <option class= "option" value="">Toru Hara</option>
+          <option class= "option" value="">Toshio Suzuki</option>
+          <option class= "option" value="">Yoshiaki Nishimura</option>
         </select>
       </form>
       <!--
@@ -54,7 +59,7 @@
   <main>
     <div class="info flexBox">
       <h2>Here you can check Ghibli movies</h2>
-      <h3>Touch or pass the mouse over the cards to see more information</h3>
+      <h3>Hover over for more information</h3>
     </div>
     <section id="movies" class="movies flexBox">
 
