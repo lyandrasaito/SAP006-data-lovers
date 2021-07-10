@@ -1,32 +1,18 @@
-// estas funciones son de ejemplo
-
-//export const example = () => {
-//  return 'example';
-//};
-
-//export const anotherExample = () => {
-//  return 'OMG';
-//};
-
-//Funções
-
-
-
 import data from './data/ghibli/ghibli.js'
+const films = data.films;
 
-/*
-export function arrayToObject(array){
-    let result = {}
-    for (const element of array){
-        result[element[0]] = element [1];
+export const ordering = (element, option) => {
+    if (option === "A-Z") {
+        return element.sort((a, b) => a.title > b.title ? 1 : -1);
+    } else if (option === "Z-A") {
+        return element.sort((a, b) => a.title > b.title ? -1 : -1);
+    } else if (option === "Release") {
+        return element.sort((a, b) => parseInt(a.release_date) > parseInt(b.release_date) ? 1 : -1);
+    } else if (option === "novo") {
+        return element.sort((a, b) => parseInt(a.release_date) > parseInt(b.release_date) ? -1 : 1);
+    } else if (option === "Rate") {
+        return element.sort((a, b) => parseInt(a.rt_score) > parseInt(b.rt_score) ? 1 : -1);
+    } else if (option === "bom") {
+        return element.sort((a, b) => parseInt(a.rt_score) > parseInt(b.rt_score) ? -1 : 1);
     }
-    return result;
-}*/
-
-/*
-export function alphabetic(a, b) {
-    return a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
-}*/
-
-
-
+}
