@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
-    color: white;
+    /* color: white; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -53,17 +53,48 @@ h4 {
 }
 
 .card {
-    background: black;
-    border: 2px solid white;
-    width: 60%;
-    border-radius: 20px;
-    margin: 25px 0px -60px 0px;
+   
+    transition: transform 500ms ease;
 }
 
-.imgCard {
-    border-radius: 8px;
-    width: 80%;
+.card:hover{
+transform: scale(1.1);
 }
+.card-content{
+    
+}
+
+.card-title{
+    position: relative;
+    font-size: 35px;
+    color: white;
+}
+
+.card-title::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    left: 0;
+    top: 10%;
+    width: 100%;
+}
+
+.card-body{
+    color: white;
+    padding: 1.5em;
+    background: linear-gradient(
+        hsl(0% 0% 0% / 0),
+        hsl(20 0% 0% /0.3) 20%,
+        hsl(0 0% 0% / 1)
+    );
+}
+
+
+/* .imgCard {
+    border-radius: 500px;
+    width: 80%;
+} */
+
 
 .info {
     margin: 15px 0px -25px 0px;
@@ -76,3 +107,35 @@ select {
 .option {
     background-color: transparent;
 }
+
+/* .efeito{
+    border: none;
+    color: white;
+    padding:5px ;
+    margin:25px   ;
+    
+    border-radius: 20px ;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito1{
+    background-color: rgb(92, 255, 71);
+}
+.efeito1::after{
+    content:'' ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 25px;
+    background: rgba(255, 225, 255, 0.3);
+    border-radius: 20px;
+    transition: all 2s ease;
+}
+
+.efeito1:hover::after{
+    width: 100%;
+} */
