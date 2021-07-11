@@ -26,6 +26,7 @@ function print(ghibliMovies) {
 
 print(ghibliMovies);
 
+
 document.getElementById("order").addEventListener("change", (option) => {
 	const opt = option.target.value;
 	const order = ordering(ghibliMovies, opt);
