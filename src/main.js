@@ -16,6 +16,7 @@ function print(ghibliMovies) {
 		<h4>Producer: ${property.producer}</h4>
 		<h4>Release Date: ${property.release_date}</h4>
 		<h4>Score: ${property.rt_score}</h4>
+		<h4>Chronology of stories: ${property.chronological_position}º</h4>
 		</div>
 		
 		`
@@ -29,7 +30,7 @@ document.getElementById("order").addEventListener("change", (option) => {
 	const opt = option.target.value;
 	const order = ordering(ghibliMovies, opt);
 	print(order);
-}
-);
+});
+
 
 

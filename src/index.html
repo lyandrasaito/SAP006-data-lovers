@@ -11,7 +11,6 @@
 </head>
 
 <body>
-  <!--<div id="root"></div>-->
 
   <header>
     <img src="./img/Header.png" width="100%" />
@@ -23,6 +22,7 @@
           <option class= "option" value="" selected disabled>Order by:</option>
           <option class= "option" value="A-Z">A-Z</option>
           <option class= "option" value="Z-A">A-Z</option>
+          <option class= "option" value="internal">Internal Chronology of stories</option>
           <option class= "option" value="older">Release - Older to Newer</option>
           <option class= "option" value="newer">Release - Newer to Older</option>
           <option class= "option" value="low">Rating - Low to High</option>
@@ -31,17 +31,17 @@
         </select>
 
 
-        <select name="filter">
+        <select name="filterDirector">
           <option class= "option" value="" selected disabled>Filter by Director:</option>
           <option class= "option" value="">Hayao Miyazaki</option>
           <option class= "option" value="">Isao Takahatac</option>
           <option class= "option" value="">Yoshifumi Kondō</option>
           <option class= "option" value="">Hiroyuki Morita</option>
           <option class= "option" value="">Gorō Miyazaki</option>
-         <!-- <option class= "option" value="">Hiromasa Yonebayashi</option>-->
+          <option class= "option" value="">Hiromasa Yonebayashi</option>
         </select>
 
-        <select name="filter2">
+        <select name="filterProducer">
           <option class= "option" value="" selected disabled>Filter by Producer:</option>
           <option class= "option" value="">Hayao Miyazaki</option>Yoshiaki Nishimura
           <option class= "option" value="">Isao Takahatac</option>
@@ -50,8 +50,6 @@
           <option class= "option" value="">Yoshiaki Nishimura</option>
         </select>
       </form>
-      <!--
-      <button id="alf">teste</button>-->
     </nav>
   </header>
 
