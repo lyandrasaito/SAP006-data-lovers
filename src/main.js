@@ -29,7 +29,6 @@ function print(ghibliMovies) {
 		`
 	}
 	document.getElementById("movies").innerHTML = card;
-
 	let index = 0;
 
 	for (let card1 of document.getElementsByClassName("card")) {
@@ -37,14 +36,14 @@ function print(ghibliMovies) {
 		card1.style.backgroundImage = "url('" + ghibliMovies[index].poster + "')";
 		index++
 	}
-
 }
-
 print(ghibliMovies);
+
 
 document.getElementById("order").addEventListener("change", (option) => {
 	const opt = option.target.value;
 	const order = ordering(ghibliMovies, opt);
 	print(order);
 });
+
 
