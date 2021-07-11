@@ -14,5 +14,8 @@ export const ordering = (element, option) => {
         return element.sort((a, b) => parseInt(a.rt_score) > parseInt(b.rt_score) ? 1 : -1);
     } else if (option === "high") {
         return element.sort((a, b) => parseInt(a.rt_score) > parseInt(b.rt_score) ? -1 : 1);
+    } else if (option === "internal"){
+        return element.sort((a, b) => parseInt(a.chronological_position) > parseInt(b.chronological_position) ? 1 : -1);
     }
 }
+
