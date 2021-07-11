@@ -1,5 +1,5 @@
 import './data.js';
-//import { alphabetic } from './data.js';
+import { ordering } from './data.js';
 
 import data from './data/ghibli/ghibli.js';
 const ghibliMovies = data.films;
@@ -20,7 +20,7 @@ function print(ghibliMovies) {
 					<h4>Producer: ${property.producer}</h4>
 					<h4>Release Date: ${property.release_date}</h4>
 					<h4>Score: ${property.rt_score}</h4>
-		
+					<h4>Chronology of stories: ${property.chronological_position}º</h4>
 				</div>
 		
 			</div>
@@ -42,15 +42,9 @@ function print(ghibliMovies) {
 
 print(ghibliMovies);
 
-/*
-let test = ghibliMovies.sort(function alphabetic(a, b) {
-	return a.title < b.title ? -1 : a.title > b.title ? 1 : 0;
+document.getElementById("order").addEventListener("change", (option) => {
+	const opt = option.target.value;
+	const order = ordering(ghibliMovies, opt);
+	print(order);
 });
-
-document.getElementById("alf").addEventListener("click", function () {
-	console.log(test)
-});*/
-
-
-
 

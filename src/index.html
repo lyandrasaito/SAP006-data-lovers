@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,4 +65,75 @@
   <script src="main.js" type="module"></script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghibli Wiki</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./img/totoro.png" />
+</head>
+
+<body>
+
+  <header>
+    <img src="./img/Header.png" width="100%" />
+
+    <nav class="flexBox">
+
+      <form>
+        <select name="order" id="order">
+          <option class= "option" value="" selected disabled>Order by:</option>
+          <option class= "option" value="A-Z">A-Z</option>
+          <option class= "option" value="Z-A">A-Z</option>
+          <option class= "option" value="internal">Internal Chronology of stories</option>
+          <option class= "option" value="older">Release - Older to Newer</option>
+          <option class= "option" value="newer">Release - Newer to Older</option>
+          <option class= "option" value="low">Rating - Low to High</option>
+          <option class= "option" value="high">Rating - High to Low</option>
+
+        </select>
+
+
+        <select name="filterDirector">
+          <option class= "option" value="" selected disabled>Filter by Director:</option>
+          <option class= "option" value="">Hayao Miyazaki</option>
+          <option class= "option" value="">Isao Takahatac</option>
+          <option class= "option" value="">Yoshifumi Kondō</option>
+          <option class= "option" value="">Hiroyuki Morita</option>
+          <option class= "option" value="">Gorō Miyazaki</option>
+          <option class= "option" value="">Hiromasa Yonebayashi</option>
+        </select>
+
+        <select name="filterProducer">
+          <option class= "option" value="" selected disabled>Filter by Producer:</option>
+          <option class= "option" value="">Hayao Miyazaki</option>Yoshiaki Nishimura
+          <option class= "option" value="">Isao Takahatac</option>
+          <option class= "option" value="">Toru Hara</option>
+          <option class= "option" value="">Toshio Suzuki</option>
+          <option class= "option" value="">Yoshiaki Nishimura</option>
+        </select>
+      </form>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="info flexBox">
+      <h2>Here you can check Ghibli movies</h2>
+      <h3>Hover over for more information</h3>
+    </div>
+    <section id="movies" class="movies flexBox">
+
+    </section>
+  </main>
+
+  <script src="main.js" type="module"></script>
+</body>
+
+>>>>>>> 397c9dfd6d1ecfc516a8a5dec2202d4b0e9589c9
 </html>
