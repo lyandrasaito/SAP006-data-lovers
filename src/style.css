@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
-    font-family: 'Roboto', sans-serif;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .flexBox {
@@ -59,7 +59,6 @@ label {
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 600ms ease;
-    
 }
 
 .card:hover{
@@ -104,16 +103,23 @@ transform: scale(1.05);
 transform: scalex(1);
 }
 
-
 .card-body{
     color: white;
     padding: 1.5em;
     max-width: 35ch;
 }
 
+
 .info {
     margin: 15px 0px -25px 0px;
 }
+
+/*
+.imgCard {
+    border-radius: 8px;
+    width: 80%;
+}
+*/
 
 select {
     background-color: transparent;
