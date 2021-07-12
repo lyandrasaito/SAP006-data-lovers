@@ -28,7 +28,7 @@ function print(ghibliMovies) {
 
 	for (let card1 of document.getElementsByClassName("card")) {
 
-		card1.style.backgroundImage = "url('" + ghibliMovies[index].poster + "')";
+		card1.style.backgroundImage = "url('" + ghibliMovies[index].poster + "')"; 
 		index++
 	}
 }
@@ -40,11 +40,6 @@ document.getElementById("order").addEventListener("change", (option) => {
 	print(order);
 });
 
-/*
-document.getElementById("filterDirector").addEventListener("change", (option) => {
-	const opt = option.target.value;
-	const filter = filtering(ghibliMovies, opt);
-	print(filter);
-});*/
+
 
 
