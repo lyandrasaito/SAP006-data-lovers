@@ -1,5 +1,7 @@
 import './data.js';
 import { ordering } from './data.js';
+import { filteringDirector } from './data.js';
+import { filteringProducer } from './data.js';
 
 import data from './data/ghibli/ghibli.js';
 const ghibliMovies = data.films;
@@ -28,18 +30,31 @@ function print(ghibliMovies) {
 
 	for (let card1 of document.getElementsByClassName("card")) {
 
-		card1.style.backgroundImage = "url('" + ghibliMovies[index].poster + "')"; 
+		card1.style.backgroundImage = "url('" + ghibliMovies[index].poster + "')";
+		/*card1.style.backgroundSize  =  "50%";*/
+
 		index++
 	}
 }
 print(ghibliMovies);
 
 document.getElementById("order").addEventListener("change", (option) => {
-	const opt = option.target.value;
-	const order = ordering(ghibliMovies, opt);
+	let opt = option.target.value;
+	let order = ordering(ghibliMovies, opt);
 	print(order);
 });
 
 
+document.getElementById("filterDirector").addEventListener("change", (option) => {
+	let opt = option.target.value;
+	let filter = filteringDirector(ghibliMovies, opt);
+	print(filter);
+});
 
+
+document.getElementById("filterProducer").addEventListener("change", (option) => {
+	let opt = option.target.value;
+	let filter = filteringProducer(ghibliMovies, opt);
+	print(filter);
+});
 
