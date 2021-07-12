@@ -19,3 +19,9 @@ export const ordering = (element, option) => {
     }
 }
 
+/*
+export const filtering(element, option) => {
+    if (option === ""){
+         
+    }
+}*/
