@@ -32,6 +32,7 @@ function print(ghibliMovies) {
 
 		card1.style.backgroundImage = "url('" + ghibliMovies[index].poster + "')";
 		/*card1.style.backgroundSize  =  "50%";*/
+
 		index++
 	}
 }
@@ -49,6 +50,7 @@ document.getElementById("filterDirector").addEventListener("change", (option) =>
 	let filter = filteringDirector(ghibliMovies, opt);
 	print(filter);
 });
+
 
 document.getElementById("filterProducer").addEventListener("change", (option) => {
 	let opt = option.target.value;
