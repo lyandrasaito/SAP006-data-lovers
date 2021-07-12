@@ -43,7 +43,6 @@ document.getElementById("order").addEventListener("change", (option) => {
 	print(order);
 });
 
-
 document.getElementById("filterDirector").addEventListener("change", (option) => {
 	let opt = option.target.value;
 	let filter = filteringDirector(ghibliMovies, opt);
