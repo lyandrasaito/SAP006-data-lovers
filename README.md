@@ -33,7 +33,7 @@ Oiie, essa aplicação foi desenvolvida por Lya e Enny, duplinha do projeto Data
   
  ## 3 Pesquisa
 
-Fizemos uma pesquisa atraves do Google forms para identificar qual nosso :dart: público alvo, se o Studio era um universo novo a ser aprensentado ou se nossos usúarios já estavam imersos a pelo menos algum filme. A pesquisa obteve 50 respostas dentre os resultados obtivemos os seguintes dados:
+Fizemos uma pesquisa através do Google forms para identificar qual nosso :dart: público alvo, se o Studio era um universo novo a ser aprensentado ou se nossos usúarios já estavam imersos a pelo menos algum filme. A pesquisa obteve 50 respostas, dentre os resultados obtivemos os seguintes dados:
 
 **(づ￣ ³￣)づ**
 
@@ -59,8 +59,8 @@ Fizemos uma pesquisa atraves do Google forms para identificar qual nosso :dart: 
 
 > Um dos nossos maiores aliados para o planejamento dessa aplicação foi o [Trello](https://trello.com/):
 
-<img src="https://s6.gifyu.com/images/Captura-de-tela-de-2021-07-14-16-49-33.png"/>
+<img src="![image](https://user-images.githubusercontent.com/17890206/125753793-92565d06-1562-4ec2-a630-24e711776206.png)"/>
 
-> Desde o início do projeto, nós íamos nos organizando sprint a sprint para alcançar todas as metas e ter uma noção maior de tudo que estava acontecendo de forma assíncrona.
+> Desde o início do projeto, nos organizamos Sprint a Sprint, para alcançar todas as metas e ter uma noção maior de tudo que estava acontecendo de forma assíncrona.
 
-<img src="https://s6.gifyu.com/images/Captura-de-tela-de-2021-07-14-16-49-468a87fdca35775f21.png"/>
+<img src="https://s6.gifyu.com/images/Captura-de-tela-2021-07-15-05.03.26.png"/>
