@@ -59,8 +59,11 @@ Fizemos uma pesquisa através do Google forms para identificar qual nosso :dart:
 
 > Um dos nossos maiores aliados para o planejamento dessa aplicação foi o [Trello](https://trello.com/):
 
-> Desde o início do projeto, nos organizamos Sprint a Sprint, para alcançar todas as metas e ter uma noção maior de tudo que estava acontecendo de forma assíncrona.
-> ![Captura de tela 2021-07-15 05 03 10](https://user-images.githubusercontent.com/17890206/125754314-7caa438c-35d6-433a-9683-a91908e99fa6.png)
+
+ ![Captura de tela 2021-07-15 05 03 10](https://user-images.githubusercontent.com/17890206/125754314-7caa438c-35d6-433a-9683-a91908e99fa6.png)
+ 
+ > Desde o início do projeto, nos organizamos Sprint a Sprint, para alcançar todas as metas e ter uma noção maior de tudo que estava acontecendo de forma assíncrona.
+ 
 ![Captura de tela 2021-07-15 05 03 26](https://user-images.githubusercontent.com/17890206/125754350-b7bc8e97-d303-46e5-8d68-1fa1f59651b0.png)
 
 
