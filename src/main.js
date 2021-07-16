@@ -55,5 +55,3 @@ document.getElementById("filterProducer").addEventListener("change", (option) =>
 	let filter = filteringProducer(ghibliMovies, opt);
 	print(filter);
 });
-
-
