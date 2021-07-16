@@ -3,6 +3,7 @@ import { ordering } from './data.js';
 import { filteringDirector } from './data.js';
 import { filteringProducer } from './data.js';
 
+
 import data from './data/ghibli/ghibli.js';
 const ghibliMovies = data.films;
 
@@ -54,4 +55,5 @@ document.getElementById("filterProducer").addEventListener("change", (option) =>
 	let filter = filteringProducer(ghibliMovies, opt);
 	print(filter);
 });
+
 

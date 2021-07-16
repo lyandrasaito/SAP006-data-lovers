@@ -39,7 +39,7 @@ label {
     margin-top: 25px;
     padding-left: 5px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28%, 1fr));
+    grid-template-columns: repeat(3, max-content);
     grid-gap: 100px;
     padding-inline-start: 100px;
 }
@@ -59,31 +59,36 @@ label {
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 600ms ease;
+    border: 5px solid red;
 }
 
-.card:hover {
-    transform: scale(1.05);
+.card:hover{
+transform: scale(1.05);
 }
-
-.card-content {
+.card-content{
     --padding: 2rem;
     padding: var(--padding);
-    background: linear-gradient( hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.5) 20%, hsl(0 0% 0% / 1));
+    background: linear-gradient(
+        hsl(0 0% 0% / 0), 
+        hsl(0 0% 0% / 0.5) 20%,
+        hsl(0 0% 0% / 1)
+    );
     transform: translateY(70%);
 }
 
-.card:hover .card-content {
+.card:hover .card-content{
     transform: translateY(0);
     transition: transform 600ms ease;
 }
 
-.card-title {
+.card-title{
     position: relative;
     width: max-content;
     color: white;
+    
 }
 
-.card-title::after {
+.card-title::after{
     content: '';
     position: absolute;
     height: 2px;
@@ -95,15 +100,16 @@ label {
     transition: transform 800ms ease;
 }
 
-.card:hover .card-title::after {
-    transform: scalex(1);
+.card:hover .card-title::after{
+transform: scalex(1);
 }
 
-.card-body {
+.card-body{
     color: white;
     padding: 1.5em;
     max-width: 35ch;
 }
+
 
 .info {
     margin: 15px 0px -25px 0px;
@@ -113,16 +119,18 @@ label {
 .imgCard {
     border-radius: 8px;
     width: 80%;
-}
-*/
+}*/
+
 
 select {
     background-color: transparent;
-    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
     font-size: 15px;
     padding: 8px;
+    margin: 5px;
 }
 
 .option {
-    background-color: black;
+    background-color:black;
 }
