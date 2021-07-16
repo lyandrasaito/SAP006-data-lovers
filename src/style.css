@@ -59,6 +59,7 @@ label {
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 600ms ease;
+    border: 5px solid red;
 }
 
 .card:hover{
