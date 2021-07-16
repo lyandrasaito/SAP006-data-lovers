@@ -32,7 +32,6 @@ function print(ghibliMovies) {
 	for (let card1 of document.getElementsByClassName("card")) {
 
 		card1.style.backgroundImage = "url('" + ghibliMovies[index].poster + "')";
-		/*card1.style.backgroundSize  =  "50%";*/
 		index++
 	}
 }
