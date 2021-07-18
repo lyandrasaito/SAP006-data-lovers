@@ -1,5 +1,5 @@
-import data from './data/ghibli/ghibli.js'
-const films = data.films;
+//import data from './data/ghibli/ghibli.js'
+//const films = data.films;
 
 export const ordering = (element, option) => {
     if (option === "A-Z") {
@@ -34,11 +34,6 @@ export const filteringDirector = (element, option) => {
 export const filteringProducer = (element, option) => {
     return element.filter((e) => e.producer === option)
 }
-
-/*	const filteringGender = (element, option) => {
-        ghibliMovies.forEach (film => film.people.forEach(property => property.gender))
-        return element.filter((e) => e.gender === option)
-    }*/
 
 export const filteringGender = (element, option) => {
     return element.filter((e) => e.gender === option)
