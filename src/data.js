@@ -19,6 +19,14 @@ export const ordering = (element, option) => {
     }
 }
 
+export const orderingCharacters = (element, option) => {
+    if (option === "A-Z") {
+        return element.sort((a, b) => a.name > b.name ? 1 : -1);
+    } else if (option === "Z-A") {
+        return element.sort((a, b) => a.name > b.name ? -1 : -1);
+    }
+}
+
 export const filteringDirector = (element, option) => {
     return element.filter((e) => e.director === option)
 }
@@ -26,3 +34,14 @@ export const filteringDirector = (element, option) => {
 export const filteringProducer = (element, option) => {
     return element.filter((e) => e.producer === option)
 }
+
+/*	const filteringGender = (element, option) => {
+        ghibliMovies.forEach (film => film.people.forEach(property => property.gender))
+        return element.filter((e) => e.gender === option)
+    }*/
+
+export const filteringGender = (element, option) => {
+    return element.filter((e) => e.gender === option)
+}
+
+

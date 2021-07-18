@@ -1,16 +1,18 @@
 import './data.js';
 import data from './data/ghibli/ghibli.js';
+import { filteringGender, orderingCharacters } from './data.js';
 
-const ghibliMovies = data.films;
+const characters = data.films;
 
-function print(ghibliMovies) {
+//characters.forEach(film => film.people.forEach(property => console.log(property.name, property.specie, property.gender))); 
 
-	for (let movie of ghibliMovies) {
-		const people = movie.people;
-		let card = ""
+function print(characters) {
+	let card = "";
+	for (let character of characters) {
+		const people = character.people;
 		for (let person of people) {
 			card += `
-			 <div class="card flexBox">
+			 <div class="card flexBox" style="background-image: url('${person.img}')">
 			 <div class="card-content">
 				 <h3 class="card-title">${person.name}</h3>
 				 <div class="card-body">
@@ -24,13 +26,19 @@ function print(ghibliMovies) {
 		 </div> 
 			`
 		}
-		document.getElementById("characters").innerHTML = card;
-		let index = 0;
-
-		for (let card1 of document.getElementsByClassName("card")) {
-			card1.style.backgroundImage = "url('" + people[index].img + "')";
-			index++
-		}
 	}
+	document.getElementById("characters").innerHTML = card;
 }
-print(ghibliMovies);
+print(characters);
+
+document.getElementById("order").addEventListener("change", (option) => {
+	let opt = option.target.value;
+	let order = orderingCharacters(characters, opt);
+	print(order);
+});
+
+document.getElementById("filterGender").addEventListener("change", (option) => {
+	let opt = option.target.value;
+	let filter = filteringGender(characters, opt);
+	print(filter);
+});
