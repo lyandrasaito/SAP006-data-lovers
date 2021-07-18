@@ -85,7 +85,7 @@ export default {
         {
           "id": "fcb4a2ac-5e41-4d54-9bba-33068db083ca",
           "name": "Louis",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/8/80/Louis.jpg",
+          "img": "https://pm1.narvii.com/7166/59b59a342f22929098080ba7b2781ce20244afe9r1-210-240v2_hq.jpg",
           "gender": "Male",
           "age": "30",
           "eye_color": "Dark brown",
@@ -569,7 +569,7 @@ export default {
         {
           "id": "3f78eba1-f9b0-489b-8686-f4508cdf049d",
           "name": "Toshio",
-          "img": "http://static.wikia.nocookie.net/studio-ghibli/images/2/23/Toshio.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/5/5d/Toshio.jpg",
           "gender": "Male",
           "age": "Adult",
           "eye_color": "Black",
@@ -620,7 +620,7 @@ export default {
           "id": "c8f02850-0c1f-499c-8b5e-d8ad16f3ecc4",
           "name": "Yaeko Okajima",
           "gender": "Female",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/03/Yaeko.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/a/a8/Yaeko_Okajima.jpg",
           "age": "16",
           "eye_color": "Black",
           "hair_color": "Grey",
@@ -629,7 +629,7 @@ export default {
         {
           "id": "6e960787-5a47-4178-a040-1ef5bf5e4a6c",
           "name": "Tani Tsuneko",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/5/5a/Tani.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/2/21/Tani_Tsuneko.jpg",
           "gender": "Female",
           "age": "10",
           "eye_color": "Black",
@@ -706,7 +706,7 @@ export default {
         {
           "id": "eff43a47-e59c-41bd-bcc6-b1827d63bed5",
           "name": "Donald Curtis",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/3c/Curtis.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/6/61/Donald_Curtis.jpg",
           "gender": "Male",
           "age": "Adult",
           "eye_color": "Brown",
@@ -903,7 +903,7 @@ export default {
         {
           "id": "42a69bf6-b5e8-42b1-b05a-12c3d05e7c1e",
           "name": "Shizuku Tsukishima",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/d/db/Shizuku_Tsukishima.gif",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/6/67/Shizuku_Tsukishima.jpg",
           "gender": "Female",
           "age": "14",
           "eye_color": "Black",
@@ -913,7 +913,7 @@ export default {
         {
           "id": "fc196c4f-0201-4ed2-9add-c6403f7c4d32",
           "name": "Baron Humbert von Gikkingen",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/7/73/Baron.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/4/4f/Humbert_von_Gikkingen.jpg",
           "gender": "Male",
           "age": "Adult",
           "eye_color": "Green",
@@ -923,7 +923,7 @@ export default {
         {
           "id": "079db09e-0441-442b-8c17-af5cac8321c4",
           "name": "Seiji Amasawa",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/ca/Seiji.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c5/Seiji_Amasawa.jpg",
           "gender": "Male",
           "age": "15",
           "eye_color": "Black",
@@ -933,7 +933,7 @@ export default {
         {
           "id": "494bba43-9f61-4383-a597-5bae6ab26222",
           "name": "Yuko Harada",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b5/Yuko.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/cb/Yuko_Harada.jpg",
           "gender": "Female",
           "age": "14",
           "eye_color": "Black",
@@ -953,7 +953,7 @@ export default {
         {
           "id": "182c1f2a-e1e0-4035-b87a-754d58ed6e2d",
           "name": "Seiya Tsukishima",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/f/fb/Seiya_%281%29.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b3/Seiya_Tsukishima.jpg",
           "gender": "Male",
           "age": "40",
           "eye_color": "Black",
@@ -963,7 +963,7 @@ export default {
         {
           "id": "d92e61f3-f525-4740-9f06-c9e7b19c3d11",
           "name": "Asako Tsukishima",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/1/14/Asako_Tsukishima.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/a/ac/Asako_Tsukishima.jpg",
           "gender": "Female",
           "age": "39",
           "eye_color": "Black",
@@ -983,7 +983,7 @@ export default {
         {
           "id": "e40b4241-612b-402f-8e6c-067c44e9c618",
           "name": "Shiho Tsukishima",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8c/Shiho.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/02/Shiho_Tsukishima.jpg",
           "gender": "Female",
           "age": "18",
           "eye_color": "Black",
@@ -1388,7 +1388,7 @@ export default {
         {
           "id": "3042818d-a8bb-4cba-8180-c19249822d57",
           "name": "Cat King",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/37/Cat_King.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/34/The_Cat_King.jpg",
           "gender": "Male",
           "age": "87",
           "eye_color": "Emerald",
@@ -1408,7 +1408,7 @@ export default {
         {
           "id": "a3d8e70f-46a0-4e5a-b850-db01620d6b92",
           "name": "Haru Yoshioka",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/5/5c/Haru_Yoshioka_human.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/2/27/Haru_Yoshioka.jpg",
           "gender": "Female",
           "age": "17",
           "eye_color": "Brown",
@@ -1438,7 +1438,7 @@ export default {
         {
           "id": "5b2a28f6-91d4-4382-aedc-b27094e763b0",
           "name": "Prince Lune",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d4/Prince_lune.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/9/90/Prince_Lune.jpg",
           "gender": "Male",
           "age": "Adult",
           "eye_color": "Dark brown",
@@ -1908,7 +1908,7 @@ export default {
         {
           "id": "89026b3a-abc4-4053-ab1a-c6d2eea68faa",
           "name": "Karigurashi/Arrietty",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/6/6f/Arrietty.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/04/Arrietty.jpg",
           "gender": "Female",
           "age": "14",
           "eye_color": "Black",

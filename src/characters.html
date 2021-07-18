@@ -16,17 +16,23 @@
     <img src="./img/cover.png" width="100%" />
 
     <nav class="flexBox">
-
-      <form>
-        <select name="filterGender" id="filterGender">
-          <option class="option" value="" selected disabled>Filter by Gender:</option>
-          <option class="option" value="Female">Female</option>
-          <option class="option" value="Male">Male</option>
-          <option class="option" value="NA">NA</option>
-        </select>
-      </form>
       <a href="index.html">Home</a>
     </nav>
+
+    <form class="flexBox">
+      <select name="filterGender" id="filterGender">
+        <option class="option" value="" selected disabled>Filter by Gender:</option>
+        <option class="option" value="Female">Female</option>
+        <option class="option" value="Male">Male</option>
+        <option class="option" value="NA">NA</option>
+      </select>
+
+      <select name="order" id="order">
+        <option class="option" value="" selected disabled>Order by:</option>
+        <option class="option" value="A-Z">A-Z</option>
+        <option class="option" value="Z-A">A-Z</option>
+      </select>
+    </form>
   </header>
 
 
