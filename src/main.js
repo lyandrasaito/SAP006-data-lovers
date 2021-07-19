@@ -14,7 +14,7 @@ function print(ghibliMovies) {
 		card += `
 			<div class="card flexBox">
 				<h3>${property.title}</h3>
-				<img class="imgCard" src=${property.poster}><br>
+				<img class="imgCard" src=${property.poster}>
 				<h4>Director: ${property.director}</h4>
 				<h4>Producer: ${property.producer}</h4>
 				<h4>Release Date: ${property.release_date}</h4>

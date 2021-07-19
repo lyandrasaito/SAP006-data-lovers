@@ -23,7 +23,7 @@ export const orderingCharacters = (element, option) => {
     if (option === "A-Z") {
         return element.sort((a, b) => a.name > b.name ? 1 : -1);
     } else if (option === "Z-A") {
-        return element.sort((a, b) => a.name > b.name ? -1 : -1);
+        return element.sort((a, b) => a.name > b.name ? -1 : 1);
     }
 }
 
@@ -37,6 +37,10 @@ export const filteringProducer = (element, option) => {
 
 export const filteringGender = (element, option) => {
     return element.filter((e) => e.gender === option)
+}
+
+export const filteringSpecies = (element, option) => {
+    return element.filter((e) => e.specie === option)
 }
 
 

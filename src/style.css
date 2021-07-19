@@ -2,22 +2,19 @@
 * {
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .flexBox {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-header {
-    margin: -7px -10px;
-    background: black;
+    flex-direction: column;
 }
 
 body {
     background: black;
+    /*deixar nav transp*/
 }
 
 nav {
@@ -34,7 +31,6 @@ label {
 }
 
 .movies {
-    background: black;
     /*border: 2px solid grey;*/
     margin-top: 25px;
     padding-left: 5px;
@@ -48,9 +44,10 @@ label {
     margin-top: -12px;
 } */
 
-/* h4 {
-    margin-top: -8px;
-} */
+h3, h4 {
+    padding: 8px;
+    text-align: center;
+}
 
 /*
 .card {
@@ -114,23 +111,26 @@ transform: scalex(1);
 .card {
     background: black;
     border: 2px solid white;
-    width: 60%;
+    width: 220px;
+    height: 450px;
     border-radius: 20px;
     margin: 25px 0px -60px 36px;
 }
 
 .imgCard {
     border-radius: 8px;
-    width: 80%;
+    width: 150px;
+    height: auto;
 }
 
 .info {
     margin: 15px 0px -25px 0px;
 }
 
-select {
+select, .button {
     background-color: transparent;
-    border: 1px solid white;
+    border: 2px solid white;
+    text-decoration: none;
     border-radius: 5px;
     font-size: 15px;
     padding: 8px;
@@ -139,4 +139,21 @@ select {
 
 .option {
     background-color: black;
+}
+
+@media (max-width: 400px) {
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 100%;
+        border-radius: 20px;
+        margin: 25px 0px -60px 36px;
+    }
+
+    .movies {
+        /*border: 2px solid grey;*/
+        margin-top: 25px;
+        padding-left: 5px;
+    }
+
 }
