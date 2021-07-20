@@ -1,5 +1,5 @@
-import data from './data/ghibli/ghibli.js'
-const films = data.films;
+//import data from './data/ghibli/ghibli.js'
+//const films = data.films;
 
 export const ordering = (element, option) => {
     if (option === "A-Z") {
@@ -14,8 +14,33 @@ export const ordering = (element, option) => {
         return element.sort((a, b) => parseInt(a.rt_score) > parseInt(b.rt_score) ? 1 : -1);
     } else if (option === "high") {
         return element.sort((a, b) => parseInt(a.rt_score) > parseInt(b.rt_score) ? -1 : 1);
-    } else if (option === "internal"){
+    } else if (option === "internal") {
         return element.sort((a, b) => parseInt(a.chronological_position) > parseInt(b.chronological_position) ? 1 : -1);
     }
 }
+
+export const orderingCharacters = (element, option) => {
+    if (option === "A-Z") {
+        return element.sort((a, b) => a.name > b.name ? 1 : -1);
+    } else if (option === "Z-A") {
+        return element.sort((a, b) => a.name > b.name ? -1 : 1);
+    }
+}
+
+export const filteringDirector = (element, option) => {
+    return element.filter((e) => e.director === option)
+}
+
+export const filteringProducer = (element, option) => {
+    return element.filter((e) => e.producer === option)
+}
+
+export const filteringGender = (element, option) => {
+    return element.filter((e) => e.gender === option)
+}
+
+export const filteringSpecies = (element, option) => {
+    return element.filter((e) => e.specie === option)
+}
+
 

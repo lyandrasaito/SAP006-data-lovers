@@ -13,51 +13,49 @@
 <body>
 
   <header>
-    <img src="./img/Header.png" width="100%" />
-
-    <nav class="flexBox">
-
-      <form>
-        <select name="order" id="order">
-          <option class= "option" value="" selected disabled>Order by:</option>
-          <option class= "option" value="A-Z">A-Z</option>
-          <option class= "option" value="Z-A">A-Z</option>
-          <option class= "option" value="internal">Internal Chronology of stories</option>
-          <option class= "option" value="older">Release - Older to Newer</option>
-          <option class= "option" value="newer">Release - Newer to Older</option>
-          <option class= "option" value="low">Rating - Low to High</option>
-          <option class= "option" value="high">Rating - High to Low</option>
-
-        </select>
-
-
-        <select name="filterDirector">
-          <option class= "option" value="" selected disabled>Filter by Director:</option>
-          <option class= "option" value="">Hayao Miyazaki</option>
-          <option class= "option" value="">Isao Takahatac</option>
-          <option class= "option" value="">Yoshifumi Kondō</option>
-          <option class= "option" value="">Hiroyuki Morita</option>
-          <option class= "option" value="">Gorō Miyazaki</option>
-          <option class= "option" value="">Hiromasa Yonebayashi</option>
-        </select>
-
-        <select name="filterProducer">
-          <option class= "option" value="" selected disabled>Filter by Producer:</option>
-          <option class= "option" value="">Hayao Miyazaki</option>Yoshiaki Nishimura
-          <option class= "option" value="">Isao Takahatac</option>
-          <option class= "option" value="">Toru Hara</option>
-          <option class= "option" value="">Toshio Suzuki</option>
-          <option class= "option" value="">Yoshiaki Nishimura</option>
-        </select>
-      </form>
-    </nav>
+    <img src="./img/cover.png" width="100%" />
   </header>
+
+  <nav class="flexBox">
+    <form>
+      <select name="order" id="order">
+        <option class="option" value="" selected disabled>Order by:</option>
+        <option class="option" value="A-Z">A-Z</option>
+        <option class="option" value="Z-A">A-Z</option>
+        <option class="option" value="internal">Chronology of stories</option>
+        <option class="option" value="older">Release - Older to Newer</option>
+        <option class="option" value="newer">Release - Newer to Older</option>
+        <option class="option" value="low">Rating - Low to High</option>
+        <option class="option" value="high">Rating - High to Low</option>
+      </select>
+
+      <select name="filterDirector" id="filterDirector">
+        <option class="option" value="" selected disabled>Filter by Director:</option>
+        <option class="option" value="Gorō Miyazaki">Gorō Miyazaki</option>
+        <option class="option" value="Hayao Miyazaki">Hayao Miyazaki</option>
+        <option class="option" value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+        <option class="option" value="Hiroyuki Morita">Hiroyuki Morita</option>
+        <option class="option" value="Isao Takahata">Isao Takahata</option>
+        <option class="option" value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+      </select>
+
+      <select name="filterProducer" id="filterProducer">
+        <option class="option" value="" selected disabled>Filter by Producer:</option>
+        <option class="option" value="Hayao Miyazaki">Hayao Miyazaki</option>
+        <option class="option" value="Isao Takahata">Isao Takahata</option>
+        <option class="option" value="Toru Hara">Toru Hara</option>
+        <option class="option" value="Toshio Suzuki">Toshio Suzuki</option>
+        <option class="option" value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
+      </select>
+      <a href="characters.html" class="button">Characters</a>
+    </form>
+  </nav>
+
 
 
   <main>
     <div class="info flexBox">
-      <h2>Here you can check Ghibli movies</h2>
-      <h3>Hover over for more information</h3>
+      <h3>Here you can check Ghibli movies. Hover over for more information.</h3>
     </div>
     <section id="movies" class="movies flexBox">
 

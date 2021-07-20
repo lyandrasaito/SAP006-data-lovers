@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghibli Wiki - Characters</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./img/totoro.png" />
+</head>
+
+<body>
+
+  <header>
+    <img src="./img/cover.png" width="100%" />
+  </header>
+
+  <nav class="flexBox">
+
+    <form>
+      <select name="order" id="order">
+        <option class="option" value="" selected disabled>Order by:</option>
+        <option class="option" value="A-Z">A-Z</option>
+        <option class="option" value="Z-A">Z-A</option>
+      </select>
+
+      <select name="filterGender" id="filterGender">
+        <option class="option" value="" selected disabled>Filter by Gender:</option>
+        <option class="option" value="Female">Female</option>
+        <option class="option" value="Male">Male</option>
+        <option class="option" value="NA">NA</option>
+      </select>
+
+      <select name="filterSpecie" id="filterSpecie">
+        <option class="option" value="" selected disabled>Filter by Specie:</option>
+        <option class="option" value="Human">Humans</option>
+        <option class="option" value="Totoro">Totoros</option>
+        <option class="option" value="Cat">Cats</option>
+        <option class="option" value="Raccoon Dog">Raccoon Dogs</option>
+        <option class="option" value="Spirit">Spirits</option>
+        <option class="option" value="Witch">Witches</option>
+        <option class="option" value="Borrower">Borrowers</option>
+      </select>
+
+      <a href="index.html" class="button">Movies</a>
+    </form>
+
+
+  </nav>
+
+
+  <main>
+    <div class="info flexBox">
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+    </div>
+    <section id="characters" class="movies flexBox">
+
+    </section>
+  </main>
+
+  <script src="characters.js" type="module"></script>
+</body>
+
+</html>
