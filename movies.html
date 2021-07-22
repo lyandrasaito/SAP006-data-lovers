@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghibli Wiki</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./img/favicon.png" />
+</head>
+
+<body>
+
+  <header>
+    <img src="./img/cover.png" width="100%" />
+  </header>
+
+
+  <nav class="flexBox">
+    <div>
+      <a href="index.html" class="button">Home</a>
+      <a href="movies.html" class="button">Movies</a>
+      <a href="characters.html" class="button">Characters</a>
+    </div>
+  </nav>
+
+  <form class="filters">
+    <select name="order" id="order">
+      <option class="option" value="" selected disabled>Order by:</option>
+      <option class="option" value="A-Z">A-Z</option>
+      <option class="option" value="Z-A">A-Z</option>
+      <option class="option" value="internal">Chronology of stories</option>
+      <option class="option" value="older">Release - Older to Newer</option>
+      <option class="option" value="newer">Release - Newer to Older</option>
+      <option class="option" value="low">Rating - Low to High</option>
+      <option class="option" value="high">Rating - High to Low</option>
+    </select>
+
+    <select name="filterDirector" id="filterDirector">
+      <option class="option" value="" selected disabled>Filter by Director:</option>
+      <option class="option" value="Gorō Miyazaki">Gorō Miyazaki</option>
+      <option class="option" value="Hayao Miyazaki">Hayao Miyazaki</option>
+      <option class="option" value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+      <option class="option" value="Hiroyuki Morita">Hiroyuki Morita</option>
+      <option class="option" value="Isao Takahata">Isao Takahata</option>
+      <option class="option" value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+    </select>
+
+    <select name="filterProducer" id="filterProducer">
+      <option class="option" value="" selected disabled>Filter by Producer:</option>
+      <option class="option" value="Hayao Miyazaki">Hayao Miyazaki</option>
+      <option class="option" value="Isao Takahata">Isao Takahata</option>
+      <option class="option" value="Toru Hara">Toru Hara</option>
+      <option class="option" value="Toshio Suzuki">Toshio Suzuki</option>
+      <option class="option" value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
+    </select>
+  </form>
+
+
+
+
+  <main>
+    <div class="info flexBox">
+      <h3>Here you can check Ghibli movies. Hover over for more information.</h3>
+    </div>
+    <section id="movies" class="movies flexBox">
+
+    </section>
+  </main>
+
+  <script src="movies.js" type="module"></script>
+</body>
+
+</html>
