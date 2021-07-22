@@ -93,9 +93,17 @@ select, .button {
     }
 
     .movies {
-        /*border: 2px solid grey;*/
+        border: 2px solid grey;
         margin-top: 25px;
         padding-left: 5px;
     }
 
 }*/
+
+.filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 12px;
+}

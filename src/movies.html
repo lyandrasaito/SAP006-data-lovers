@@ -16,42 +16,47 @@
     <img src="./img/cover.png" width="100%" />
   </header>
 
+
   <nav class="flexBox">
-    <form>
-      <select name="order" id="order">
-        <option class="option" value="" selected disabled>Order by:</option>
-        <option class="option" value="A-Z">A-Z</option>
-        <option class="option" value="Z-A">A-Z</option>
-        <option class="option" value="internal">Chronology of stories</option>
-        <option class="option" value="older">Release - Older to Newer</option>
-        <option class="option" value="newer">Release - Newer to Older</option>
-        <option class="option" value="low">Rating - Low to High</option>
-        <option class="option" value="high">Rating - High to Low</option>
-      </select>
-
-      <select name="filterDirector" id="filterDirector">
-        <option class="option" value="" selected disabled>Filter by Director:</option>
-        <option class="option" value="Gorō Miyazaki">Gorō Miyazaki</option>
-        <option class="option" value="Hayao Miyazaki">Hayao Miyazaki</option>
-        <option class="option" value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
-        <option class="option" value="Hiroyuki Morita">Hiroyuki Morita</option>
-        <option class="option" value="Isao Takahata">Isao Takahata</option>
-        <option class="option" value="Yoshifumi Kondō">Yoshifumi Kondō</option>
-      </select>
-
-      <select name="filterProducer" id="filterProducer">
-        <option class="option" value="" selected disabled>Filter by Producer:</option>
-        <option class="option" value="Hayao Miyazaki">Hayao Miyazaki</option>
-        <option class="option" value="Isao Takahata">Isao Takahata</option>
-        <option class="option" value="Toru Hara">Toru Hara</option>
-        <option class="option" value="Toshio Suzuki">Toshio Suzuki</option>
-        <option class="option" value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
-      </select>
+    <div>
       <a href="index.html" class="button">Home</a>
       <a href="movies.html" class="button">Movies</a>
       <a href="characters.html" class="button">Characters</a>
-    </form>
+    </div>
   </nav>
+
+  <form class="filters">
+    <select name="order" id="order">
+      <option class="option" value="" selected disabled>Order by:</option>
+      <option class="option" value="A-Z">A-Z</option>
+      <option class="option" value="Z-A">A-Z</option>
+      <option class="option" value="internal">Chronology of stories</option>
+      <option class="option" value="older">Release - Older to Newer</option>
+      <option class="option" value="newer">Release - Newer to Older</option>
+      <option class="option" value="low">Rating - Low to High</option>
+      <option class="option" value="high">Rating - High to Low</option>
+    </select>
+
+    <select name="filterDirector" id="filterDirector">
+      <option class="option" value="" selected disabled>Filter by Director:</option>
+      <option class="option" value="Gorō Miyazaki">Gorō Miyazaki</option>
+      <option class="option" value="Hayao Miyazaki">Hayao Miyazaki</option>
+      <option class="option" value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+      <option class="option" value="Hiroyuki Morita">Hiroyuki Morita</option>
+      <option class="option" value="Isao Takahata">Isao Takahata</option>
+      <option class="option" value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+    </select>
+
+    <select name="filterProducer" id="filterProducer">
+      <option class="option" value="" selected disabled>Filter by Producer:</option>
+      <option class="option" value="Hayao Miyazaki">Hayao Miyazaki</option>
+      <option class="option" value="Isao Takahata">Isao Takahata</option>
+      <option class="option" value="Toru Hara">Toru Hara</option>
+      <option class="option" value="Toshio Suzuki">Toshio Suzuki</option>
+      <option class="option" value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
+    </select>
+  </form>
+
 
 
 
