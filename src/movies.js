@@ -20,6 +20,7 @@ function print(ghibliMovies) {
 				<h4>Producer: ${property.producer}</h4>
 				<h4>Release Date: ${property.release_date}</h4>
 				<h4>Score: ${property.rt_score}</h4>
+				<h4>Chronological position: ${property.chronological_position}</h4>
 			</div>
 		`
 	}
