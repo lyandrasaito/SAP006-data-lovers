@@ -1,15 +1,11 @@
 import './data.js';
 import data from './data/ghibli/ghibli.js';
-import { filteringGender, orderingCharacters, filteringSpecies } from './data.js';
+import { filteringGender, ordering, filteringSpecies } from './data.js';
 
 
 //characters.forEach(film => film.people.forEach(property => console.log(property.name, property.specie, property.gender))); 
 
 const movies = data.films;
-
-/*  movies.map percorre todos os movies e movie => movie.people retorna o arranjo de personagens, 
-	recebo arranjo contendo subarranjos com todos os personagens de cada filme
-  flat junta esses arranjos internos num arranjo só para criar um novo array com os arranjos que preciso */
 
 const characters = movies.map(movie => movie.people).flat();
 
@@ -31,11 +27,11 @@ const printCharacters = (characters) => {
 	document.getElementById("characters").innerHTML = card;
 }
 
-printCharacters(characters); //print inicial
+printCharacters(characters); 
 
 document.getElementById("order").addEventListener("change", (option) => {
 	let opt = option.target.value;
-	let order = orderingCharacters(characters, opt);
+	let order = ordering(characters, opt);
 	printCharacters(order);
 });
 
