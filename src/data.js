@@ -29,5 +29,4 @@ export const filteringGender = (element, option) => element.filter((e) => e.gend
 
 export const filteringSpecies = (element, option) => element.filter((e) => e.specie.toLowerCase() === option);
 
-
-
+export const moviesAverage = (movies) => movies.reduce((acc, movie) => acc + parseInt(movie["rt_score"]), 0) / movies.length;

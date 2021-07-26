@@ -31,18 +31,13 @@ label {
 }
 
 .movies {
-    /*border: 2px solid grey;*/
     margin-top: 25px;
     padding-left: 5px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28%, 1fr));
+    grid-template-columns: repeat(3, max-content);
     grid-gap: 100px;
-    padding-inline-start: 100px;
 }
 
-/* p {
-    margin-top: -12px;
-} */
 
 h3, h4 {
     padding: 8px;
@@ -52,8 +47,8 @@ h3, h4 {
 .card {
     background: black;
     border: 2px solid white;
-    width: 260px;
-    height: 450px;
+    width: 300px;
+    height: 500px;
     border-radius: 20px;
     margin: 25px 0px -60px 36px;
 }
@@ -82,28 +77,167 @@ select, .button {
     background-color: black;
 }
 
-/*
-@media (max-width: 400px) {
-    .card {
-        background: black;
-        border: 2px solid white;
-        width: 100%;
-        border-radius: 20px;
-        margin: 25px 0px -60px 36px;
-    }
-
-    .movies {
-        border: 2px solid grey;
-        margin-top: 25px;
-        padding-left: 5px;
-    }
-
-}*/
-
-.filters{
+.filters {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     padding: 12px;
+}
+
+@media (min-width: 280px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+        grid-gap: 50px;
+    }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 210px;
+        height: 500px;
+        border-radius: 20px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 12px;
+    }
+}
+
+@media (min-width:320px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+        grid-gap: 100px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 12px;
+    }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 210px;
+        height: 500px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width:480px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        grid-gap: 100px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 12px;
+    }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 210px;
+        height: 500px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width:539px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+        grid-gap: 100px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 12px;
+    }
+}
+
+@media (min-width:600px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        grid-gap: 100px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 12px;
+    }
+}
+
+@media (min-width:801px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, max-content);
+        grid-gap: 100px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 12px;
+    }
+}
+
+@media (min-width:1025px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, max-content);
+        grid-gap: 100px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 12px;
+    }
+}
+
+@media (min-width:1281px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, max-content);
+        grid-gap: 100px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 12px;
+    }
 }
