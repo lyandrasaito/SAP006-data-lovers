@@ -1,4 +1,4 @@
-import { ordering, filteringGender, filteringSpecies, filteringProducer, filteringDirector } from '../src/data.js';
+import { ordering, filteringGender, filteringSpecies, filteringProducer, filteringDirector, moviesAverage } from '../src/data.js';
 
 const movies = [
   { "title": "Castle in the Sky", "release_date": "1986", "rt_score": "95", "chronological_position": "6", "director": "Hayao Miyazaki", "producer": "Isao Takahata" },
@@ -145,7 +145,6 @@ describe('testing "filteringGender" function', () => {
 
 });
 
-
 describe('testing "filteringSpecies" function', () => {
   it('its a function', () => {
     expect(typeof filteringSpecies).toBe('function');
@@ -153,6 +152,17 @@ describe('testing "filteringSpecies" function', () => {
 
   it('should filter by specie', () => {
     expect(filteringSpecies(characters, "cat")).toEqual([characters[4]]);
+  });
+
+});
+
+describe('testing "moviesAverage" function', () => {
+  it('its a function', () => {
+    expect(typeof moviesAverage).toBe('function');
+  });
+
+  it('should return 95.25', () => {
+    expect(moviesAverage(movies, "rt_score")).toEqual(95.25);
   });
 
 });

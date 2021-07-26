@@ -2,13 +2,15 @@ import './data.js';
 import { ordering } from './data.js';
 import { filteringDirector } from './data.js';
 import { filteringProducer } from './data.js';
+import { moviesAverage } from './data.js';
 
 
 import data from './data/ghibli/ghibli.js';
 const ghibliMovies = data.films;
 
 function print(ghibliMovies) {
-	let card = "";
+	let card = "";	
+	const average = moviesAverage(ghibliMovies).toFixed(2);
 
 	for (let property of ghibliMovies) {
 		card += `
@@ -20,7 +22,10 @@ function print(ghibliMovies) {
 				<h4>Producer: ${property.producer}</h4>
 				<h4>Release Date: ${property.release_date}</h4>
 				<h4>Score: ${property.rt_score}</h4>
+				<h4>Average of all scores: ${average}</h4>
 				<h4>Chronological position: ${property.chronological_position}</h4>
+				
+				
 			</div>
 		`
 	}
