@@ -293,7 +293,7 @@ footer{
 .indexCard{
     background: black;
     border: 2px solid white;
-    width: 150px;
+    width: 120px;
     height: auto;
     border-radius: 20px;
     padding: 8px;
@@ -302,7 +302,7 @@ footer{
 
 .imgIndexCard {
     border-radius: 8px;
-    width: 120px;
+    width: 100px;
     height: auto;
 }
 
