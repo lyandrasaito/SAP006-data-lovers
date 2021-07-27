@@ -23,7 +23,7 @@ function print(ghibliMovies) {
 				<h4>Release Date: ${property.release_date}</h4>
 				<h4>Score: ${property.rt_score}</h4>
 				<h4>Average of all scores: ${average}</h4>
-				<h4>Chronological position: ${property.chronological_position}</h4>
+				<h4>Chronological position: ${property.chronological_position}º</h4>
 				
 				
 			</div>
