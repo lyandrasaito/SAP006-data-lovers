@@ -204,7 +204,7 @@ select, .button {
     }
 }
 
-@media (min-width:801px), (max-width: 1199px) {
+@media (min-width:801px) {
     .movies {
         margin-top: 25px;
         padding-left: 5px;
@@ -228,7 +228,7 @@ select, .button {
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1025px) {
     .movies {
         margin-top: 25px;
         padding-left: 5px;
