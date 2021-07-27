@@ -129,6 +129,7 @@ select, .button {
         width: 210px;
         height: 550px;
         border-radius: 20px;
+        margin-left: -10px;
     }
 }
 
