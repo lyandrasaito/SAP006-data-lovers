@@ -276,3 +276,26 @@ select, .button {
         border-radius: 20px;
     }
 }
+
+footer{
+    margin-top: 100px;
+}
+
+.indexOptions{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.indexCard{
+    background: black;
+    border: 2px solid white;
+    width: 100px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 50px;
+}
+
