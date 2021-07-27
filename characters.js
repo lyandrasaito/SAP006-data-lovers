@@ -2,9 +2,6 @@ import './data.js';
 import data from './data/ghibli/ghibli.js';
 import { filteringGender, ordering, filteringSpecies } from './data.js';
 
-
-//characters.forEach(film => film.people.forEach(property => console.log(property.name, property.specie, property.gender))); 
-
 const movies = data.films;
 
 const characters = movies.map(movie => movie.people).flat();
@@ -27,7 +24,7 @@ const printCharacters = (characters) => {
 	document.getElementById("characters").innerHTML = card;
 }
 
-printCharacters(characters); 
+printCharacters(characters);
 
 document.getElementById("order").addEventListener("change", (option) => {
 	let opt = option.target.value;
