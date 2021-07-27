@@ -26,7 +26,7 @@
 
 
 
-  <main>
+  <main class="flexBox">
     <div class="info flexBox">
       <h2>Welcome to Ghibli Wiki!</h2>
       <h3>
@@ -34,14 +34,34 @@
         a Japanese animation film studio headquartered in Koganei, Tokyo.
       </h3>
       <h3>
-        Click above to discover about <a href="movies.html" class="">'Movies'</a> or <a href="characters.html"
-          class="">'Characters'</a>.
+        Click above or below to discover about 'Movies' or 'Characters'
       </h3>
-      <img src="./img/totoroHi.png" width="15%" />
+
+      <div class="indexOptions flexBox">
+        <a href="movies.html" class="">
+          <div class="indexCard flexBox">
+            <h3>Movies</h3>
+            <img class="" src="img/totoroHi.png" width="90%">
+          </div>
+        </a>
+        <a href="characters.html" class="">
+          <div class="indexCard flexBox">
+            <h3>Characters</h3>
+            <img class="" src="img/totoroHi.png" width="90%">
+          </div>
+        </a>
+      </div>
+
     </div>
 
   </main>
 
+  <footer class="flexBox">
+    Desenvolvido por Lyandra Saito
+    <a href="https://github.com/lyandrasaito/SAP006-data-lovers">
+      <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+        style="width:42px;height:42px;">GitHub</a>
+  </footer>
 </body>
 
 </html>
