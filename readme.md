@@ -23,17 +23,29 @@ resultando em um protótipo de alta fidelidade.
 As histórias de usuários foram pensadas e documentadas de modo a detalharem cada funcionalidade específica da aplicação, como filtrar por produtor, filtrar por espécie, entre outros:
 
 • Como usuário, quero acessar a lista de filmes do Studio Ghibli;
+
 • Como usuário, quero acessar informações acerca de filmes do Studio Ghibli;
+
 • Como usuário, quero consultar os filmes em ordem alfabética crescente e decrescente;
+
 • Como usuário, quero consultar os filmes em ordem de avaliação crescente e decrescente;
+
 • Como usuário, quero consultar os filmes em ordem de lançamento crescente e decrescente;
+
 • Como usuário, quero consultar os filmes em ordem cronológica interna das histórias;
+
 • Como usuário, quero filtrar os filmes por diretor;
+
 • Como usuário, quero filtrar os filmes por produtor;
+
 • Como usuário, quero acessar a lista de personagens do Studio Ghibli;
+
 • Como usuário, quero acessar informações acerca de personagens do Studio Ghibli;
+
 • Como usuário, quero consultar os personagens em ordem alfabética crescente e decrescente;
+
 • Como usuário, quero filtrar os personagens por gênero;
+
 • Como usuário, quero filtrar os personagens por espécie. 
 
 Imagem 4.: Exemplo de História de Usuário
