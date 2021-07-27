@@ -14,7 +14,6 @@
 
 body {
     background: black;
-    /*deixar nav transp*/
 }
 
 nav {
@@ -277,11 +276,11 @@ select, .button {
     }
 }
 
-footer{
+footer {
     margin-top: 100px;
 }
 
-.indexOptions{
+.indexOptions {
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -290,7 +289,7 @@ footer{
     padding-right: 10px;
 }
 
-.indexCard{
+.indexCard {
     background: black;
     border: 2px solid white;
     width: 120px;
@@ -305,4 +304,3 @@ footer{
     width: 100px;
     height: auto;
 }
-
