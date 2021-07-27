@@ -29,7 +29,7 @@ function print(ghibliMovies) {
 			</div>
 		`
 	}
-	document.getElementById("movies").innerHTML = card;
+	document.getElementById("content").innerHTML = card;
 
 }
 print(ghibliMovies);
