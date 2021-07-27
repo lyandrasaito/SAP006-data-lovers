@@ -38,7 +38,6 @@ label {
     grid-gap: 100px;
 }
 
-
 h3, h4 {
     padding: 8px;
     text-align: center;
@@ -151,7 +150,7 @@ select, .button {
     .card {
         background: black;
         border: 2px solid white;
-        width: 210px;
+        width: 250px;
         height: 500px;
         border-radius: 20px;
     }
@@ -172,6 +171,13 @@ select, .button {
         flex-direction: column;
         padding: 12px;
     }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 200px;
+        height: 500px;
+        border-radius: 20px;
+    }
 }
 
 @media (min-width:600px) {
@@ -189,9 +195,40 @@ select, .button {
         flex-direction: column;
         padding: 12px;
     }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 250px;
+        height: 500px;
+        border-radius: 20px;
+    }
 }
 
-@media (min-width:801px) {
+@media (min-width:801px), (max-width: 1199px) {
+    .movies {
+        margin-top: 25px;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        grid-gap: 100px;
+    }
+    .filters {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 12px;
+    }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 220px;
+        height: 520px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width:1200px) {
     .movies {
         margin-top: 25px;
         padding-left: 5px;
@@ -206,22 +243,12 @@ select, .button {
         flex-direction: row;
         padding: 12px;
     }
-}
-
-@media (min-width:1025px) {
-    .movies {
-        margin-top: 25px;
-        padding-left: 5px;
-        display: grid;
-        grid-template-columns: repeat(3, max-content);
-        grid-gap: 100px;
-    }
-    .filters {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        padding: 12px;
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 290px;
+        height: 500px;
+        border-radius: 20px;
     }
 }
 
@@ -239,5 +266,12 @@ select, .button {
         align-items: center;
         flex-direction: row;
         padding: 12px;
+    }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 250px;
+        height: 500px;
+        border-radius: 20px;
     }
 }
