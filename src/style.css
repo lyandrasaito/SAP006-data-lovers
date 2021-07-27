@@ -38,7 +38,6 @@ label {
     grid-gap: 100px;
 }
 
-
 h3, h4 {
     padding: 8px;
     text-align: center;
@@ -97,7 +96,7 @@ select, .button {
         background: black;
         border: 2px solid white;
         width: 210px;
-        height: 500px;
+        height: 550px;
         border-radius: 20px;
     }
     .filters {
@@ -128,7 +127,7 @@ select, .button {
         background: black;
         border: 2px solid white;
         width: 210px;
-        height: 500px;
+        height: 550px;
         border-radius: 20px;
     }
 }
@@ -151,8 +150,8 @@ select, .button {
     .card {
         background: black;
         border: 2px solid white;
-        width: 210px;
-        height: 500px;
+        width: 250px;
+        height: 550px;
         border-radius: 20px;
     }
 }
@@ -172,6 +171,13 @@ select, .button {
         flex-direction: column;
         padding: 12px;
     }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 200px;
+        height: 550px;
+        border-radius: 20px;
+    }
 }
 
 @media (min-width:600px) {
@@ -189,6 +195,13 @@ select, .button {
         flex-direction: column;
         padding: 12px;
     }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 250px;
+        height: 500px;
+        border-radius: 20px;
+    }
 }
 
 @media (min-width:801px) {
@@ -196,7 +209,7 @@ select, .button {
         margin-top: 25px;
         padding-left: 5px;
         display: grid;
-        grid-template-columns: repeat(3, max-content);
+        grid-template-columns: repeat(2, max-content);
         grid-gap: 100px;
     }
     .filters {
@@ -205,6 +218,13 @@ select, .button {
         align-items: center;
         flex-direction: row;
         padding: 12px;
+    }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 220px;
+        height: 520px;
+        border-radius: 20px;
     }
 }
 
@@ -223,6 +243,13 @@ select, .button {
         flex-direction: row;
         padding: 12px;
     }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 290px;
+        height: 500px;
+        border-radius: 20px;
+    }
 }
 
 @media (min-width:1281px) {
@@ -239,5 +266,12 @@ select, .button {
         align-items: center;
         flex-direction: row;
         padding: 12px;
+    }
+    .card {
+        background: black;
+        border: 2px solid white;
+        width: 250px;
+        height: 500px;
+        border-radius: 20px;
     }
 }
